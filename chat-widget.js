@@ -3,7 +3,7 @@
    ============================================ */
 
 (function() {
-    const API_BASE = "http://localhost:8000";
+    const API_BASE = "http://your-server-ip:8001";
     
     // Create widget HTML
     function createChatWidget() {
