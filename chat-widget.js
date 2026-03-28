@@ -3,7 +3,7 @@
    ============================================ */
 
 (function() {
-    const API_BASE = "http://46.17.105.48:8002";
+    const API_BASE = "http://localhost:8002";
 
     // Create widget HTML
     function createChatWidget() {
@@ -89,7 +89,7 @@
                 const res = await fetch(API_BASE + "/chat", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ message: text, top_k: 3 })
+                    body: JSON.stringify({ message: text })
                 });
 
                 if (!res.ok) {
