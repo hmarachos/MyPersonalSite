@@ -1,0 +1,44 @@
+{
+  "faq": [
+    {
+      "version": "1.0",
+      "language": "ru",
+      "tags": [
+        "общие",
+        "вопросы",
+        "помощь"
+      ],
+      "title": "Часто задаваемые вопросы",
+      "filename": "general_questions.md",
+      "category": "faq"
+    }
+  ],
+  "installation": [
+    {
+      "version": "1.0",
+      "language": "ru",
+      "tags": [
+        "установка",
+        "начало",
+        "настройка"
+      ],
+      "title": "Руководство по установке",
+      "filename": "setup_guide.md",
+      "category": "installation"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "version": "1.0",
+      "language": "ru",
+      "tags": [
+        "ошибки",
+        "решение",
+        "проблемы"
+      ],
+      "title": "Решение распространённых проблем",
+      "filename": "common_errors.md",
+      "category": "troubleshooting"
+    }
+  ]
+}
